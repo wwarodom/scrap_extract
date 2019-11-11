@@ -1,5 +1,5 @@
-#Web scrapping for NLP
-Web scrapping for NLP on python-2.7
+# Web scrapping for NLP
+Web scrapping for NLP on python-2.7 export data to MS Excel
 
 ## Pre-Requirement
 ```python
