@@ -8,4 +8,8 @@ pip install requests
 pip install pythainlp
 ``` 
 
+# Sources:
+* scrap.py: scrapping
+* tokenizer.py: word segmentation
+
 Have fun
