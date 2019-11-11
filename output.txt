@@ -1,0 +1,485 @@
+
+
+
+
+
+
+
+
+
+Skip to main content
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+Main menuFeatures
+Interview
+Forum
+Jobs
+Workplace
+Company Profile
+Search
+  
+
+
+
+
+
+
+
+
+
+
+You are hereHome » Blogs » nutmos's blog
+
+
+
+
+
+
+
+Skaffold เครื่องมือช่วยดีพลอยระบบบน Kubernetes เข้าสู่สถานะ GA แล้ว
+
+
+By: nutmos  on 11 November 2019 - 19:35
+Tags:Topics: GoogleKubernetesGoogle Cloud Platform
+
+
+
+
+Google เปิดตัวโครงการ Skaffold เมื่อสองปีที่แล้ว โดยตัวโครงการนั้นเกิดขึ้นมาเพื่อตอบโจทย์ปัญหาการช่วยดีพลอยระบบบน Kubernetes และวันนี้ Google ได้ประกาศให้โครงการ Skaffold เข้าสู่สถานะ GA อย่างเป็นทางการแล้ว
+Skaffold นั้นเกิดขึ้นมาเพื่อแก้ปัญหาที่นักพัฒนาต้องใช้เวลาในการจัดการคอนเทนเนอร์, อัพเดต Kubernetes manifest และ redeploy แอปอยู่ตลอดเวลาแม้ว่าจะแก้ไขโค้ดเพียงเล็กน้อย เพื่อให้นักพัฒนาโฟกัสกับการแก้โค้ดมากขึ้น
+Skaffold ทำงานได้จบบนฝั่งไคลเอนท์ ไม่ต้องติดตั้งอะไรเพิ่มเติมบนคลัสเตอร์ มีคอมมานด์ skaffold dev เป็นคอมมานด์หลักที่จะคอยตรวจสอบการแก้ไขโค้ด จากนั้นจะ rebuild และ redeploy แอปขึ้นคลัสเตอร์ให้แบบเรียลไทม์
+ในสองปีที่ผ่านมา โครงการ Skaffold มีผู้ร่วม commit โค้ดกว่า 150 ราย รวมแล้วกว่า 5,000 commits และผ่านมาแล้วทั้งหมด 40 releases โดยปัจจุบันมีปลั๊กอิน Cloud Code บน VS Code และ IntelliJ ที่ใช้งาน Skaffold เพื่ออำนวยความสะดวกในการพัฒนาแอปแบบ cloud-native ด้วย
+สำหรับรายละเอียดเพิ่มเติมของโครงการ ดูได้จากเว็บไซต์ Skaffold
+ที่มา - Google Cloud Blog
+
+ภาพจาก Google Cloud
+ 
+
+
+
+
+
+
+
+
+ 
+Get latest news from Blognone
+
+Follow @twitterapi
+
+
+ 
+
+
+
+Hiring! บริษัทที่น่าสนใจ
+
+
+
+
+
+
+
+PAKGON COMPANY LIMITED
+บริษัท แพคกอน จํากัดเป็นผู้ดําเนินธุรกิจพัฒนาระบบสารสนเทศด้านซอฟแวร์ของภาครัฐและเอกชน
+
+ 
+
+
+
+
+PeerPower
+PeerPower is the leading Online Marketplace Lender based in Thailand.
+
+ 
+
+
+
+
+AMPOS Solutions (Thailand)
+Fast growing B2B startup provided solutions for HRD, talent development, employee engagement and etc
+
+ 
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+sign in
+
+
+ลงทะเบียน
+ลืมรหัสผ่าน
+
+
+
+
+
+Username: *
+
+
+
+Password: *
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+Blognone Jobs Premium
+
+
+
+
+ 
+
+
+Java Developer (Senior/Leader/Manager)
+
+
+        ฿30,000 - ฿120,000
+      
+Ascend Group Co., Ltd.
+      
+       - 
+       กรุงเทพมหานคร
+
+
+  
+
+ 
+
+
+Senior Full Stack Developer
+
+
+        ฿40,000 - ฿80,000
+      
+WISESIGHT HQ (Thailand)
+      
+       - 
+      จตุจักร กรุงเทพมหานคร
+
+
+  
+
+ 
+
+
+Full Stack Developer [URGENT!!!!]
+
+
+        ฿40,000 - ฿90,000
+      
+True e-Logistics Co., Ltd.
+      
+       - 
+      พระโขนง กรุงเทพมหานคร
+
+
+  
+
+ 
+
+
+Graphic Designer
+
+
+        ฿20,000 - ฿40,000
+      
+MEB Corporation  Limited.
+      
+       - 
+      ปากเกร็ด นนทบุรี
+
+
+  
+
+ 
+
+
+Senior / Middle Developer
+
+
+        ฿30,000 - ฿80,000
+      
+T2P Company Limited
+      
+       - 
+      วัฒนา กรุงเทพมหานคร
+
+
+  
+
+ 
+
+
+iOS/Android Programmer
+
+
+        ฿20,000 - ฿35,000
+      
+PAKGON COMPANY LIMITED
+      
+       - 
+      บางรัก กรุงเทพมหานคร
+
+
+  
+
+ 
+
+
+Cloud Software Engineer (AWS)
+
+
+        ฿20,000 - ฿40,000
+      
+DailiTech
+      
+       - 
+      ราชเทวี กรุงเทพมหานคร
+
+
+  
+
+ 
+
+
+Programmer Front and Back (Senior/Junior)
+
+
+        ฿25,000 - ฿60,000
+      
+MEB Corporation  Limited.
+      
+       - 
+      ปากเกร็ด นนทบุรี
+
+
+  
+
+ 
+
+
+Java Developer -Interview Day 11.11.2019
+
+
+        ฿28,000 - ฿60,000
+      
+Siam Commercial Bank Public Company Limited
+      
+       - 
+      จตุจักร กรุงเทพมหานคร
+
+
+  
+
+ 
+
+
+Web Developer
+
+
+        ฿20,000 - ฿40,000
+      
+Zanroo
+      
+       - 
+      ปากเกร็ด นนทบุรี
+
+
+  
+
+
+ลงประกาศ
+
+ 
+
+
+Brand Inside
+
+Honda เตรียมเปิดตัวรถยนต์ไฟฟ้าล้วนอีกรุ่นในยุโรป ทั้งชะลอทำตลาดดีเซล และ Plug-in Hybrid
+
+จับตลาดรถเก่า! Mazda เปิดแคมเปญให้ผู้ใช้เอารถสปอร์ตรุ่นเก๋ามาปัดฝุ่น เริ่มที่ MX-5 โฉมแรก
+
+Alibaba โค่นยอดขายวัน 11.11 ของปีก่อนได้ภายใน 17 ชม. ด้วยมูลค่าเกือบ 1 ล้านล้านบาท
+
+“สงครามการค้าจะทำให้สหรัฐเจ็บตัวเอง แถมเสียเพื่อนเพิ่ม” อดีตรัฐมนตรีคลังของจีนกล่าว
+
+TikTok, PUBG และอีก 23 แอปจากจีน ฟันรายได้ 745 ล้านเหรียญในสหรัฐ
+
+More 
+
+
+Partners
+
+Samsung Galaxy S11 จะมี 3 ขนาดหน้าจอสูงสุดที่ 6.9 นิ้ว ใช้กล้อง 108MP
+
+[Review] Huawei Mate 30 Pro ซูเปอร์เรือธงกล้องเทพ สเปคแรง ที่ถูกสกัดดาวรุ่ง
+
+OnePlus ทำเก๋! สร้างเปียโนด้วย 7T Pro ทั้งหมด 17 เครื่อง
+
+เผยบริการ Apple Arcade มีเกมในระบบแตะ 100 เกมแล้ว
+
+เผย Samsung Galaxy S11 จะมี 3 ขนาด และแยกเป็น 5 เวอร์ชั่น ขึ้นอยู่กับตลาด
+
+More 
+
+
+Forum
+
+
+
+  
+ ปีนี้ MS ไม่ออก update ใหม่แล้วเหรอ 
+
+ ขออนุญาตสอบถามเรื่องการเปลี่ยนโดเมนเว็บครับ (Drupal) 
+
+ ช่วยแนะนำจอ LED ขนาด 21-23" สเปก IPS ทนราคาไม่แรง 
+
+ [solved] ใครเจอปัญหาเข้า homepage BN แล้ว session หลุดบ้างครับ? 
+
+ < linux > ช่วงนี้ใครอัพเกรด kernel แล้ว software raid0 ไม่ทำงานอ่านวีธีแก้ครับ 
+
+ [แก้ได้แล้ว] ฟอนต์ Sarabun New มีปัญหาหลังจากอัพ Win10 
+
+ ตัวตรวจสอบ NFC 
+
+ >> แอพที่เราตั้งวงสนทนาคุยกับเพื่อนบ้าน<<  ... ช่วยหาวิธีทำให้มันเกิดขึ้นทีครับ 
+
+ การล็อกอินไวไฟสาธารณะด้วยชื่อ-สกุลและเลขบัตรปชช. 
+
+ ระหว่าง HDD 7200 vs. HDD+SSD เลือกอันไหนดีครับ 
+ 
+ 
+
+
+Blognone on Facebook
+
+
+
+Blognone
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+About Blognone
+
+
+About Us, History
+Careers
+Statistics
+Become Member
+Writing Guideline, Glossary
+Contact Us
+Privacy Policy
+
+
+
+
+Other Version
+
+
+RSS Feed
+Apps
+Twitter, Facebook, Google+, YouTube
+
+Blognone in Other Forms
+
+
+
+Copyright Notice
+
+Creative Commons Attribution 3.0
+©2004-2019
+Blognone.com is owned and operated by Blognone Co., Ltd. (LinkedIn Profile)
+Blognone is a subsidiary company of wongnai.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
