@@ -2,9 +2,7 @@ from bs4 import BeautifulSoup
 from bs4.element import Comment
 #import urllib.request
 import requests
-import csv
-
-
+#import csv
 
 def tag_visible(element):
     if element.parent.name in ['style', 'script', 'head', 'title', 'meta', '[document]']:
@@ -19,7 +17,7 @@ def text_from_html(body):
     texts = soup.findAll(text=True)
     visible_texts = filter(tag_visible, texts)  
     
-    f = open("output.txt", "w")
+    f = open("output.xls", "w")
     for t in visible_texts:
         #print('xx' , t) 	
         f.write(t.encode("utf-8"))
@@ -42,9 +40,9 @@ headers = {
     }
 url = 'https://www.blognone.com/node/113074' 
 urlEng = 'http://plex.coe.psu.ac.th/port/'
+url2 = 'https://www.7mscorethai.com/%E0%B8%94%E0%B8%B9%E0%B8%9A%E0%B8%B2%E0%B8%AA%E0%B8%AA%E0%B8%94.html'
 
-html = requests.request("GET", url, headers=headers)
+html = requests.request("GET", url2, headers=headers)
 html.encoding = 'utf-8'
-print(text_from_html(html.content).encode("utf-8"))
-
-#writer.writerow(['Erica Meyers', 'IT', 'March'])
+text_from_html(html.content).encode("utf-8")
+#print(text_from_html(html.content).encode("utf-8")) 
