@@ -9,8 +9,8 @@ def main():
     wordstring = f.read() 
     #print('wordstring: ', wordstring)
     wordlist = wordstring.split() 
-    print('startlist 0: ', wordlist[0])
-    print('startlist 1: ', wordlist[1])
+    #print('startlist 0: ', wordlist[0])
+    #print('startlist 1: ', wordlist[1])
     #fsort.write(wordlist[1])
 
     wordfreq = []
@@ -27,11 +27,11 @@ def main():
 
         #fsort.write('Word, Count\n')
 
-        for s in sorteddict: 
-        	fsort.write(s[1])
-        	fsort.write(',')
-        	fsort.write(str(s[0]))
-        	fsort.write('\n')
+    for s in sorteddict: 
+      	fsort.write(s[1])
+       	fsort.write('|')
+       	fsort.write(str(s[0]))
+       	fsort.write('\n')
         #for s in sorteddict: print(s[1])
 
 #    for x in range(10):
@@ -39,4 +39,5 @@ def main():
 #        fsort.write(sorteddict[x][1]) 
     f.close()
     fsort.close()
+    
 main()
