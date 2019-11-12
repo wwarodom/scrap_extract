@@ -11,7 +11,7 @@ def main():
     wordlist = wordstring.split() 
     print('startlist 0: ', wordlist[0])
     print('startlist 1: ', wordlist[1])
-    fsort.write(wordlist[1])
+    #fsort.write(wordlist[1])
 
     wordfreq = []
     for w in wordlist:
@@ -25,8 +25,12 @@ def main():
         dictionary = obo.wordListToFreqDict(wordlist)
         sorteddict = obo.sortFreqDict(dictionary)
 
+        #fsort.write('Word, Count\n')
+
         for s in sorteddict: 
         	fsort.write(s[1])
+        	fsort.write(',')
+        	fsort.write(str(s[0]))
         	fsort.write('\n')
         #for s in sorteddict: print(s[1])
 

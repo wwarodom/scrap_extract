@@ -43,7 +43,7 @@ urlEng = 'http://plex.coe.psu.ac.th/port/'
 url2 = 'https://www.7mscorethai.com/%E0%B8%94%E0%B8%B9%E0%B8%9A%E0%B8%B2%E0%B8%AA%E0%B8%AA%E0%B8%94.html'
 url3 = 'https://www.facebook.com/'
 
-html = requests.request("GET", url2, headers=headers)
+html = requests.request("GET", url, headers=headers)
 html.encoding = 'utf-8'
 text_from_html(html.content).encode("utf-8")
 #print(text_from_html(html.content).encode("utf-8")) 
