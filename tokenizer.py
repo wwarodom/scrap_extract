@@ -12,16 +12,17 @@ engineOption = "newmm"
 f = open("output.xls", "r")
 text = f.read() 
 
-l1 = word_tokenize(text.decode("utf-8"), engine=engineOption)
-
+words = word_tokenize(text.decode("utf-8"), engine=engineOption)
 f = open("token.xls", "w")
-for t in l1:
+for word in words:
     #print('xx' , t)   
     #f.write(t.encode("utf-8"))
 #    if t == " ":
 #       print("wow")
-    if  t != '\n' and t != ' ':
-       print('xx' , t)
-       f.write(t.encode("utf-8"))
+    if  word != '\n' and word != ' ':
+       #print('xx' , word)
+       f.write(word.encode("utf-8"))
        f.write('\n')
 f.close() 
+
+#Ref: https://www.thainlp.org/pythainlp/tutorials/notebooks/pythainlp-get-started.html
