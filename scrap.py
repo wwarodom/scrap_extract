@@ -17,7 +17,7 @@ def text_from_html(body):
     texts = soup.findAll(text=True)
     visible_texts = filter(tag_visible, texts)  
     
-    f = open("output.xls", "w")
+    f = open("output.xls", "wb")
     for t in visible_texts:
         #print('xx' , t) 	
         f.write(t.encode("utf-8"))
@@ -38,12 +38,14 @@ def text_from_html(body):
 headers = {
     'User-Agent': "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36"
     }
-url = 'https://www.blognone.com/node/113074' 
+url = 'https://www.blognone.com/node/113074'
+#url = 'http://www.easylaw.go.kr/CSP/UnScRlt.laf?search_put=%EC%A7%84%EC%88%A0%EC%84%9C'
 urlEng = 'http://plex.coe.psu.ac.th/port/'
 url2 = 'https://www.7mscorethai.com/%E0%B8%94%E0%B8%B9%E0%B8%9A%E0%B8%B2%E0%B8%AA%E0%B8%AA%E0%B8%94.html'
 url3 = 'https://www.facebook.com/'
+url5 = 'http://beautifulsmile.co.kr/'
 
-html = requests.request("GET", url, headers=headers)
+html = requests.request("GET", url5, headers=headers)
 html.encoding = 'utf-8'
 text_from_html(html.content).encode("utf-8")
 #print(text_from_html(html.content).encode("utf-8")) 
